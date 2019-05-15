@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 
 public class TestReadMsg {
 
-	@Test(enabled = false)
+	@Test
 	public void readRegisterCode() throws IOException {
 		String msgCodeFilePath = File.separator+"gmall"+File.separator+"logs"+File.separator+"thirdparty-service.log";
 		String msgTemplateId = "d47051c8773343d48136f859689fa7e5|value";
